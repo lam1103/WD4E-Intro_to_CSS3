@@ -3,60 +3,90 @@ body{
   font-size: 150%;
 }
 
-/* 2. Header */
+/* Header */
 header {
     background-color: lightblue;
     padding: 10px;
 }
 
-/* 3. Nav */
+/* Nav */
 nav {
+    display: inline-block;
+    width: 80%;
     background-color: #333;
 }
 
-/* menu ngang */
 nav ul {
     margin: 0;
     padding: 0;
 }
 
-li {
+/* Comment li */
+/* li {
     display: inline-block;
     width: 150px;
-}
+} */
 
-/* link */
 nav a {
     color: white;
     text-decoration: none;
 }
 
-/* 4. Main */
+nav img {
+    width: 10%;
+}
+
+/* Main */
 main {
     background-color: #f4f4f4;
-    font-size: 18px;
     padding: 10px;
 }
 
-/* 5. Footer */
+/* Footer */
 footer {
     background-color: #222;
     color: white;
     padding: 10px;
 }
 
-/* 6. h1 */
+/* h1 */
 h1 {
     text-align: center;
     font-family: Georgia, serif;
     color: darkblue;
 }
 
-/* 7. p */
+/* p */
 p {
     line-height: 1.6;
 }
 
+/* hover */
 li:hover {
     background-color: #555;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 15px;
+}
+
+.grid img {
+    width: 100%;
+}
+
+/* FLEX */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex img {
+    width: 150px;
+    margin: 5px;
 }
